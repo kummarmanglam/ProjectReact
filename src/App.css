@@ -1,0 +1,51 @@
+.fa-instagram:before {
+  content: "\f16d";
+  color: indianred;
+}
+
+.fa-facebook:before {
+  margin-left: 10px;
+  color: blue;
+}
+
+.fa-twitter:before {
+  margin-left: 10px;
+  color: skyblue;
+}
+
+.fa-youtube:before {
+  margin-left: 10px;
+  color: red;
+}
+
+.fa-address-book:before {
+  margin-left: 16px;
+}
+
+.App-logo {
+  margin-top: 25px;
+  margin-left: 25%;
+  margin-bottom: 10px;
+
+}
+.Image-Margin{
+  margin-bottom: 12%;
+}
+
+.Footer {
+  background-color: wheat;
+}
+
+
+.fa-address-card:before{
+  margin-left: 5px;
+}
+
+.fa-2x:hover{
+  background-color: #3e8e41;
+  color: white;
+}
+
+*, ::after, ::before {
+  margin-top: 5px;
+}

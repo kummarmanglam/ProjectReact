@@ -1,0 +1,22 @@
+#rotate {
+    margin: 4% auto;
+    /* add slash at end to uncomment next line *
+    outline: solid 1px red;
+    /**/
+    width: 7em; height: 7em;
+    background:   url(http://www.webweaver.nu/clipart/img/holidays/halloween/happy-ghost.png);
+    background-size: 100% 100%;
+    animation: rotate 2s infinite linear;
+    animation-play-state: paused;
+}
+
+.paused {
+    animation-play-state: paused; 
+  }
+
+  .rotate{ animation-play-state: running !important; }
+  @keyframes rotate {
+    to { transform: rotate(360deg); }
+  }
+  
+  /* have an element, make it rotate 360 degrees on hover, keep rotating it as long as you hover, and when you stop hovering it should keep rotating until it is in the initial position */
